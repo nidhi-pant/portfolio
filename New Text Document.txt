@@ -1,0 +1,62 @@
+bg color--> #0E1525
+gradient color --> linear-gradient(-224 deg, #FD4766,#337DFF 100%)
+gradient tewt --> linear-gradient(120deg, #1C99FE 20.69%, #7644FF 50.19%,#FD4766 79.69%)
+
+
+FONT USED: nunito and montserrat
+
+background: linear-gradient(90deg, #1C99FE 20.69%, #7644FF 50.19%,#FD4766 79.69%) ;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+
+    <!-- TIMELINE -->
+    <div class="container section-timeline">
+        <div class=" timeline">
+            <div class="timeline-card card w-50 left-timeline">
+                <h4 class="card-header">BBA(Bachelors of Computer Applications)</h4>
+                <div class="card-body">
+                  <h5 class="card-title text-muted">August 2018-August 2021</h5>
+                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                  <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                </div>
+                <h3 class="card-footer text-muted"></h3>
+            </div>
+            <div class="timeline-card card  border-info w-50 right-timeline">
+                <h4 class="card-header">Digidex Labs Pvt. Ltd.</h4>
+                <div class="card-body">
+                  <h5 class="card-title text-muted">May 1st 2019-June 31st 2019</h5>
+                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                  <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                </div>
+                <h3 class="card-footer text-muted"></h3>
+            </div>
+            <div class="timeline-card card  border-info w-50 left-timeline">
+                <h4 class="card-header">Child Rights & You(CRY)</h4>
+                <div class="card-body">
+                  <h5 class="card-title text-muted">May 2020-June 2020</h5>
+                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                  <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                </div>
+                <h3 class="card-footer text-muted"></h3>
+            </div>
+            <div class="timeline-card card border-info w-50 right-timeline">
+                <h4 class="card-header">Chegg Freelance Tutor</h4>
+                <div class="card-body">
+                  <h5 class="card-title text-muted">June 2021-July 2022</h5>
+                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                  <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                </div>
+                <h3 class="card-footer text-muted"></h3>
+            </div>
+            <div class="timeline-card card border-info w-50 left-timeline">
+                <h4 class="card-header">MCA(Masters of Computer Applications)</h4>
+                <div class="card-body">
+                  <h5 class="card-title text-muted">August 2022-August 2024</h5>
+                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                  <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                </div>
+                <h3 class="card-footer text-muted"></h3>
+            </div>
+        </div>
+    </div>

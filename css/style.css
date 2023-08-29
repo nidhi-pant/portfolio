@@ -1,0 +1,360 @@
+:root{
+    --gradient-color: linear-gradient(90deg, #1C99FE 20.69%, #7644FF 50.19%,#FD4766 79.69%);
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #01010e;
+    color: white;
+
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat',sans-serif;
+}
+
+p{
+    font-family: 'Nunito',sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+/* Navigation */
+nav.r-nav{
+    background: transparent;
+    padding: 20px 0;
+    transition: .5s all;
+}
+
+nav .navbar-brand{
+    font-size: 30px;
+    color: white;
+    transition: .5s all;
+}
+nav .navbar-brand :hover{
+    color: white;
+    font-size: 40px;
+}
+nav .navbar-nav li a{
+    color: white;
+    font-size: 16px;
+    letter-spacing: 0.05em;
+    font-weight: 600;
+    font-family: 'Nunito',sans-serif;
+}
+nav .navbar-nav li a:hover{
+    background: linear-gradient(90deg, #1C99FE 20.69%, #7644FF 50.19%,#FD4766 79.69%) ;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 16px;
+    letter-spacing: 0.05em;
+    font-weight: 600;
+    font-family: 'Nunito',sans-serif;
+}
+
+nav .navbar-nav li{
+    margin-left: 15px;
+}
+
+nav.r-nav.stickyadd{
+    padding: 15px 0;
+    box-shadow: 0 1px 8px 3px rgba(0,0,0,0.05);
+    transition: .5s all ease-in-out;
+}
+
+nav .hamburger{
+    color: white;
+}
+
+/* header */
+header{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('../images/img1.jpg');
+    background-position: center;
+    background-size: cover;
+    background-position: center;
+}
+
+.header-content{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: safe;
+    justify-content: center;
+}
+
+.content-box{
+    max-width: 700px;
+    color: white;
+
+}
+
+.content-box h1 span{
+    font-size: 52px;
+    color: #1C99FE;
+
+}
+
+.content-box h1{
+    font-size: 52px;
+}
+
+.content-box p{
+    font-size: 30px;
+}
+
+.element{
+    background: linear-gradient(90deg, #1C99FE 20.69%, #7644FF 50.19%,#FD4766 79.69%) ;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.about ul.nav-pills{
+    border: 1px solid #d7d2ca;
+    border-radius: 50px;
+}
+.about ul li .nav-link{
+    border-radius: 50px;
+    font-size: 15px;
+    font-weight: 500;
+    display: inline-block;
+    border: 0;
+}
+
+.about ul li .nav-link.active{
+    background: #cb3659;
+    
+}
+
+.about .badgeClass{
+    margin-top: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+.about .tab-pane li{
+    font-size: 16px;
+    margin-bottom: 15px;
+    font-weight: 400;
+    list-style-type: none;
+    text-transform: uppercase;
+}
+
+.about .tab-pane li a{
+    font-weight: 600;
+    display: block;
+    color: #43a1e3;
+    text-decoration: none;
+
+}
+
+.about .tab-pane li a span{
+    color: #d7d2ca;
+}
+
+/* PROJECTS */
+.projects-area{
+    padding: 80px 0;
+}
+
+.card{
+    box-shadow: 3px 3px 5px grey;
+    overflow: hidden;
+    border-radius: 15px;
+    width: 80%;
+}
+
+.img1 img{
+    height: 130px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    width: 100%;
+}
+
+.img2 img{
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    z-index:1;
+    width: 100px;
+    height: 80px;
+    border-radius:50%;
+    border: 2px solid #7644FF;
+    margin-top: -50px;
+    transform: translateZ(30px);
+
+}
+
+.main-text h2{
+    padding:20px 0;
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.main-text p{
+    font-size: 16px;
+    padding: 0 10px;
+    font-family: 'Nunito',sans-serif;
+    text-align: justify;
+}
+
+
+.contact-div{
+    padding: 20px;
+    background-image: url(../images/img3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-position: center;
+}
+
+.form-div .btn-send{
+    background-color: #cb3659;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Montserrat',sans-serif;
+}
+
+.form-div label{
+    font-family: 'Nunito',sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    font-style: normal;
+}
+
+.form-div a{
+    color: white;
+    text-decoration: none;
+}
+/*
+.form-div a:hover{
+    color: #cb365;
+}
+*/
+
+.carImg{
+    height: 80vh;
+}
+
+
+/* RESUME */
+.resumeSection{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+a .downloadBtn{
+    text-decoration: none;
+    background: linear-gradient(180deg, #1C99FE 20.69%, #7644FF 50.19%,#FD4766 79.69%) ;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-weight: 900;
+    font-size: 20px;
+}
+a .downloadBtn:hover{
+    text-decoration: none;
+    background: linear-gradient(90deg, #1C99FE 10.69%, #7644FF 20.19%,#FD4766 90.69%) ;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: 2px solid;
+    padding: 3px;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+
+/* SKILLS */
+
+.skills{
+    margin: 5px 20px;
+    align-items: center;
+    display: grid;
+    place-items: center;
+}
+.logo-area{
+    float: center;
+    padding: 20px;
+}
+.skills .slide img{
+    display: block;
+}
+.skills h1{
+    text-transform: uppercase;
+    background: linear-gradient(270deg, #1C99FE 20.69%, #7644FF 40.19%, #FD4766 70.69%) ;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 0.15em;
+    
+}
+
+
+/* TIMELINE */
+.section-timeline{
+    width: 75%;
+}
+.timeline{
+    margin: 40px;
+}
+.timeline .timeline-card{
+    box-shadow: 3px 3px 5px #1C99FE;
+    height: auto;
+    margin-bottom: 30px;
+
+}
+
+.timeline-card h4{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 17px;
+    letter-spacing: 0.05em;
+    background: -webkit-linear-gradient(270deg, #1C99FE 20.69%, #7644FF 40.19%, #FD4766 70.69%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.timeline-card h5{
+    font-weight: bold;
+    letter-spacing: 0.03em;
+}
+.left-timeline{
+    float: left;
+    clear: right;
+    transform: translateX(-30px);
+}
+.right-timeline{
+    float: right;
+    clear: left;
+    transform: translateX(30px);
+
+}
+
+
+.section-timeline::after{
+    position: absolute;
+    content: '';
+    width: 2px;
+    height: 150%;
+    background-image: linear-gradient(180deg, #1C99FE 20.69%, #7644FF 40.19%, #FD4766 70.69%);    
+}
+
+footer a{
+    text-decoration: none;
+}
